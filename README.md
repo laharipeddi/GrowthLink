@@ -26,9 +26,9 @@ ML Workflow Highlights
 ---
 - Data Cleaning
 - Label Encoding
--Train-Test Split
--Feature Scaling (StandardScaler)
--Model Training: Logistic Regression, SVM, KNN, Random Forest
--Accuracy Evaluation
--Confusion Matrix
--Visualizations: Histograms, Boxplots, Pairplots
+- Train-Test Split
+- Feature Scaling (StandardScaler)
+- Model Training: Logistic Regression, SVM, KNN, Random Forest
+- Accuracy Evaluation
+- Confusion Matrix
+- Visualizations: Histograms, Boxplots, Pairplots
