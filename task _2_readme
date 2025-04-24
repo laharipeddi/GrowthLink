@@ -10,3 +10,8 @@ Project Objective
 - Perform feature selection based on correlation with the target (`Class`).
 - Train and evaluate multiple ML models using selected features.
 
+steps to run code
+
+Open the folder in VS Code/jupyter
+Open file_name.ipynb
+Run the notebook cells sequentially
