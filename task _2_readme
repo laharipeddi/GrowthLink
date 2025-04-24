@@ -1,0 +1,12 @@
+# Credit Card Fraud Detection using Machine Learning
+
+This project builds a machine learning model to detect fraudulent credit card transactions based on anonymized and transformed features. It uses classification techniques to distinguish
+between legitimate and fraudulent transactions with high accuracy
+
+Project Objective
+
+- Detect fraudulent credit card transactions using anonymized PCA-transformed features (`V1`–`V28`), along with `Amount` and `Time`.
+- Handle class imbalance (very few fraud cases).
+- Perform feature selection based on correlation with the target (`Class`).
+- Train and evaluate multiple ML models using selected features.
+
