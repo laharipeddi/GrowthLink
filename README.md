@@ -16,16 +16,16 @@ This is a simple machine learning project that uses the classic Iris dataset to 
 - Evaluate model performance using accuracy and visualization (confusion matrix, pairplots, histograms, etc.)
 
 ---
-##steps to runcode
+##steps to run code
 ---
- -Open the folder in VS Code/jupyter
- -Open file_name.ipynb
- -Run the notebook cells sequentially
+ - Open the folder in VS Code/jupyter
+ - Open file_name.ipynb
+ - Run the notebook cells sequentially
 
 #ML Workflow Highlights
 ---
--Data Cleaning
--Label Encoding
+- Data Cleaning
+- Label Encoding
 -Train-Test Split
 -Feature Scaling (StandardScaler)
 -Model Training: Logistic Regression, SVM, KNN, Random Forest
