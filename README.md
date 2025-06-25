@@ -41,8 +41,6 @@ Heuristic functions supported:
 
 ##  How to Run
 
-1. Clone this repository:
-   ```bash
   pip install numpy
 python neuralpuzzle.py
 
