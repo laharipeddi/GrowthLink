@@ -41,7 +41,7 @@ Heuristic functions supported:
 
 ##  How to Run
 
-  pip install numpy
-python neuralpuzzle.py
+- pip install numpy
+- python neuralpuzzle.py
 
 
