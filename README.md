@@ -1,34 +1,49 @@
-# GrowthLink
-#  Iris Species Classification - Machine Learning Project
+#  Neural Nexus Puzzle
 
-This is a simple machine learning project that uses the classic Iris dataset to classify flower species based on four key features. The model is built in Python using scikit-learn and is currently implemented in a Jupyter Notebook (`.ipynb`) format within VS Code.
+Neural Nexus Puzzle is a powerful AI-based solution framework for solving the classic **8-puzzle problem**. It incorporates multiple state-space search algorithms to demonstrate and evaluate the performance, trade-offs, and efficiency of various Artificial Intelligence techniques. This project is built using Python and is ideal for students, researchers, and enthusiasts interested in AI and search algorithms.
+
+---
+
+## 🧩 About the Project
+
+The 8-puzzle is a sliding tile puzzle that consists of a 3x3 grid with tiles numbered 1 through 8 and one blank space. The goal is to transform a given start state into a goal state by sliding the tiles, using the least number of moves or the optimal path based on the chosen search strategy.
+
+This project provides a CPU-based implementation of the following AI search algorithms:
+
+- A* Search
+-  Greedy Best-First Search
+-  Breadth-First Search (BFS)
+-  Depth-First Search (DFS)
+-  Depth-Limited Search (DLS)
+-  Iterative Deepening Search (IDS)
+-  Uniform Cost Search (UCS)
+
+Each algorithm is analyzed using metrics such as:
+- Time taken
+- Number of nodes generated and expanded
+- Depth and cost of the solution path
+
+Heuristic functions supported:
+- **Manhattan Distance**
+- **Misplaced Tile Count** *(optional future extension)*
 
 ---
 
-## Project Objective
+## Features
 
-- Classify **Iris-setosa**, **Iris-versicolor**, and **Iris-virginica** using features:
-  - Sepal length
-  - Sepal width
-  - Petal length
-  - Petal width
-- Perform **Exploratory Data Analysis (EDA)**, feature selection, preprocessing, and train different models (Logistic Regression, SVM, KNN, etc.)
-- Evaluate model performance using accuracy and visualization (confusion matrix, pairplots, histograms, etc.)
+- Modular design for easy integration and extension
+- Clean terminal interface to choose algorithm and input states
+- Visual trace of solution path and performance metrics
+- Uses NumPy for efficient state management and copying
+- Accurate heuristics to guide informed searches
 
 ---
-steps to run code
----
- - Open the folder in VS Code/jupyter
- - Open file_name.ipynb
- - Run the notebook cells sequentially
 
-ML Workflow Highlights
----
-- Data Cleaning
-- Label Encoding
-- Train-Test Split
-- Feature Scaling (StandardScaler)
-- Model Training: Logistic Regression, SVM, KNN, Random Forest
-- Accuracy Evaluation
-- Confusion Matrix
-- Visualizations: Histograms, Boxplots, Pairplots
+##  How to Run
+
+1. Clone this repository:
+   ```bash
+  pip install numpy
+python neuralpuzzle.py
+
+
